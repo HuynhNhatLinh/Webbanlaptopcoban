@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="cart.css">
+    <script src="cart.js"></script>
+    <title>Cửa hàng mua bán laptopAZ</title>
+</head>    
+<body style="margin: 0; padding: 0;" id="bgcolor">
+<!-- Header -->
+<div id="Header">
+    <!--Container-->
+    <div>
+        <div>
+            <!--Logo-->
+            <div>
+                <a href="trangchu.html"><img src="IMG/logo.jpg" class="logo"></a>
+            </div>
+            <!--End Logo-->
+        </div>
+        <!--Search-->
+        <div>
+        <div id="Search">
+            <!-- Load icon library -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- The form -->
+            <form class="example" action="action_page.php">
+                <input type="text" placeholder="Bạn muốn tìm sản phẩm gì?" name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+        <!--End Search-->
+
+        <div class="hotline">
+            <div>
+                <img src="IMG/lienhe.png" class="phone">
+            </div>
+            <div>
+                <p>HOTLINE: 0387081733</p>
+            </div>
+        </div>
+
+        <a href="cart.html">
+            <div id="Cart">
+                <div>
+                    <img src="IMG/giohang.png" class="cart">
+                </div>
+                <div>
+                    <p>GIỎ HÀNG</p>
+                </div>
+            </div>
+            </a>
+
+    </div>
+    <!--End Container-->
+</div>
+<!--Menu-->
+<div id="Menu">
+    <a href="danhsach1.html"><div class="laptopmoi" id="textmenu">LAPTOP MỚI</div></a>
+    <div>
+        <div class="laptopgaming" id="textmenu">LAPTOP GAMING</div>
+    </div>
+    <div>
+        <div class="laptopdohoa" id="textmenu">LAPTOP ĐỒ HỌA</div>
+    </div>
+    <div>
+        <div class="laptopmongnhecaocap" id="textmenu">LAPTOP MỎNG NHẸ CAO CẤP</div>
+    </div>
+    <div>
+        <div class="laptoplikenew" id="textmenu">LAPTOP LIKE NEW</div>
+    </div>
+        <a href="danhsach6.html"><div class="linhkienlaptop" id="textmenu">LINH KIỆN LAPTOP</div></a>
+</div>
+
+<!--End Menu-->
+<!--Noidung-->
+<div id="Noidung">
+    <div class="noidung1">
+        <div>
+        <a href="trangchu.html"><p>Trang chủ</a> / GIỎ HÀNG</p> 
+        </div>
+    </div>
+
+    <div class="noidung2">
+        <div class="STT">
+            <p class="text">STT</p>
+        </div>
+        <div class="Ten">
+            <p class="text">Tên sản phẩm</p>
+        </div>
+        <div class="Gia">
+            <p class="text">Giá</p>
+        </div>
+        <div class="SoLuong">
+            <p class="text">Số lượng</p>
+        </div>
+        <div class="Tong">
+            <p class="text">Tổng</p>
+        </div>
+        <div class="xoa">
+            <p class="text">Xóa</p>
+        </div>
+        <div class="STTvaTen">
+
+        </div>
+        <div class="GiavaSoLuongvaTongvaXoa">
+            <p class="text2">Tổng cộng: 0đ</p>
+            <p class="text3">Thanh toán : 0 VND   (Chưa bao gồm phí vận chuyển)</p>
+        </div>
+        <div class="noidung3">
+            <p class="text2">Tiếp tục mua hàng</p>
+        </div>
+        <div class="khaibaothongtin">
+            <p class="text2">1. Khách hàng khai báo thông tin</p>
+        </div>
+        <div class="ghichuchodonhang">
+            <p class="text2">2. Ghi chú cho đơn hàng</p>
+        </div>
+        <div class="thongtin">
+            <p class="text2">Thông tin người mua</p>
+            <p class="text">Những phần đánh dấu (*) là bắt buộc</p>
+            <form>
+                <label class="text">Họ tên:</label>
+                <input class="hoten"><br><br>
+                <label class="text">Điện thoại:</label>
+                <input class="sdt"><br><br>
+                <label class="text">Địa chỉ:</label>
+                <input class="diachi"><br><br>
+                <label class="text">Email:</label>
+                <input class="email"><br><br>
+              </form>
+              <p class="text2">Thông tin người nhận hàng</p>
+              <form>
+                <input type="checkbox">
+                <label class="text"> Lấy từ Thông tin Người Mua</label><br><br>
+              </form>
+              <form>
+                <label class="text">Họ tên:</label>
+                <input class="hoten"><br><br>
+                <label class="text">Điện thoại:</label>
+                <input class="sdt"><br><br>
+                <label class="text">Địa chỉ:</label>
+                <input class="diachi"><br><br>
+              </form>
+        </div>
+        <div class="ghichu">
+            <form>
+                <input class="noidungghichu"><br><br>
+            </form>
+        </div>
+        <div class="phuongthucthanhtoan">
+            <p class="text2">3. Phương thức thanh toán</p>
+        </div>
+        <div class="noidungphuongthuc">
+            <div class="lstphuongthuc">
+            <form>
+                <input type="radio">
+                <label class="text">Thanh toán tại cửa hàng</label><br>
+                <input type="radio">
+                <label class="text">Thanh toán khi nhận hàng (COD)</label><br>
+                <input type="radio">
+                <label class="text">Thanh toán trực tuyến bằng thẻ ATM, IB, QRCode qua Alepay</label><br>
+                <input type="radio">    
+                <label class="text">Thanh toán trả góp online</label>
+            </form>
+            </div>
+        </div>
+        
+            <button class="guidonhang">GỬI ĐƠN HÀNG</button>
+        
+    </div>
+
+<div class="noidung0">
+    <div class="lienhe1">
+        <a href=""><img src="IMG/Anhsanpham/lienhe1.png" width="230px" height="100px"></a>
+    </div>
+
+    <div class="lienhe2">
+        <a href=""><img src="IMG/Anhsanpham/lienhe2.png" width="230px" height="100px"></a>
+    </div>
+
+    <div class="lienhe3">
+        <a href=""><img src="IMG/Anhsanpham/lienhe3.png" width="230px" height="100px"></a>
+    </div>
+
+    <div class="lienhe4">
+        <a href="https://www.youtube.com/watch?v=T5hJ0ftTe2o&t=15s"><img src="IMG/Anhsanpham/lienhe4.png" width="230px" height="100px"></a>
+    </div>
+
+    <div class="lienhe5">
+        <a href=""><img src="IMG/Anhsanpham/lienhe5.png" width="230px" height="100px"></a>
+    </div>
+</div>
+</div>
+<!--End Sanpham-->
+<!--Footer-->
+<div id="Footer">
+    <div class="footer1">
+        <div>
+            <p>CỬA HÀNG MUA BÁN LAPTOPAZ</p>
+        </div>
+        <div>
+            <p>CƠ SỞ 1</p>
+        </div>
+        <div>
+            <p>Địa chỉ:  Số 18, ngõ 121, Thái Hà, Đống Đa, HN</p>
+        </div>
+        <div>
+            <p>Điện thoại: 09865.02468</p>
+        </div>
+        <div>
+            <p>Email:hotrolaptopaz@gmail.com</p>
+        </div>
+    </div>
+    <div class="footer2">
+        <div>
+            <p>THÔNG TIN CÔNG TY</p>
+        </div>
+        <div>
+            <a href="gioithieu.html"><p>Giới thiệu công ty</p></a>
+        </div>
+        <div>
+            <p>Tuyển dụng</p>
+        </div>
+        <div>
+            <a href="Ykien.html"><p>Cảm nhận khách hàng</p></a>
+        </div>
+        <div>
+            <img src="IMG/Anhsanpham/uytin.png" width="180px" height="100px">
+        </div>
+    </div>
+    <div class="footer3">
+        <div>
+            <p>KẾT NỐI VỚI CHÚNG TÔI</p>
+        </div>
+
+        <a href="https://www.facebook.com/laptopaz.vn">
+        <div>
+            <img src="IMG/facebook.png" class="facebook" width="50px" height="50px">
+        </div>
+        </a>
+
+        <div>
+            <img src="IMG/twitter.png" class="twitter" width="50px" height="50px">
+        </div>
+
+        <a href="https://www.youtube.com/c/LAPTOPAZREVIEW">
+        <div>
+            <img src="IMG/youtube.png" class="youtube" width="50px" height="50px">
+        </div>
+        </a>
+
+        <a href="https://www.tiktok.com/@laptopaz">
+        <div>
+            <img src="IMG/tiktok.png" class="tiktok" width="50px" height="50px">
+        </div>
+        </a>
+
+    </div>
+    <div class="footer4">
+        <p>© 2022 Bản quyền thuộc về Công ty TNHH LaptopAZ</p>
+    </div>
+</div>
+</body>
+</html>

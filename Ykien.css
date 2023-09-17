@@ -1,0 +1,545 @@
+#bgcolor {
+    background-color: whitesmoke;
+}
+
+#Header {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 120px;
+}
+
+.logo {
+    width: 140px;
+    height: 120px;
+    float: left;
+    margin-left: 150px;
+}
+
+.hotline {
+    width: 180px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.phone {
+    width: 50px;
+    height: 50px;
+}
+
+#Cart {
+    width: 140px;
+    height: 100px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 100px;
+    /* border: 1px solid black; */
+}
+
+.cart {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#Search {
+    width: 500px;
+    height: 70px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid blue;
+    float: left;
+    width: 85%;
+    background: white;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    border: #0b7dda 1px solid;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+#Menu {
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+}
+
+#textmenu {
+    font-size: 15px;
+    padding-top: 15px;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif, Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .menu1 {
+    width: 100px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 200px;
+} */
+
+.laptopmoi {
+    width: 100px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 200px;
+    background-color: blue;
+}
+
+.laptopmoi:hover {
+    background-color: darkblue;
+}
+
+.laptopgaming {
+    width: 130px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 50px;
+    background-color: blue;
+}
+
+.laptopgaming:hover {
+    background-color: darkblue;
+}
+
+.laptopdohoa {
+    width: 130px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 50px;
+    background-color: blue;
+}
+
+.laptopdohoa:hover {
+    background-color: darkblue;
+}
+
+.laptopmongnhecaocap {
+    width: 225px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 50px;
+    background-color: blue;
+}
+
+.laptopmongnhecaocap:hover {
+    background-color: darkblue;
+}
+
+.laptoplikenew{
+    width: 140px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 50px;
+    background-color: blue;
+}
+
+.laptoplikenew:hover {
+    background-color: darkblue;
+}
+
+.linhkienlaptop {
+    width: 160px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 50px;
+    background-color: blue;
+}
+
+.linhkienlaptop:hover {
+    background-color: darkblue;
+}
+
+#Noidung {
+    background-color: white;
+    height: 1420px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif, Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.noidung1 {
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+}
+
+.noidung2 {
+    width: 100%;
+    height: 1200px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.camnhankhachhang {
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.noidungphanhoi {
+    width: 100%;
+    height: 500px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid blue; */
+    background-color: white;
+}
+
+.phanhoi1 {
+    width: 400px;
+    height: 490px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid blue;
+    background-color: white;
+}
+
+.anh1 {
+    width: 320px;
+    height: 320px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 36px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.binhluan1 {
+    width: 100%;
+    height: 160px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.phanhoi2 {
+    width: 400px;
+    height: 490px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid blue;
+    background-color: white;
+}
+
+.anh2 {
+    width: 320px;
+    height: 320px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 36px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.binhluan2 {
+    width: 100%;
+    height: 160px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.phanhoi3 {
+    width: 400px;
+    height: 490px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid blue;
+    background-color: white;
+}
+
+.anh3 {
+    width: 320px;
+    height: 320px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 36px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.binhluan3 {
+    width: 100%;
+    height: 160px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.a {
+    font-family: Arial, Helvetica, sans-serif, Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.videolaptopaz {
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid blue; */
+    background-color: white;
+}
+
+.youtubevideo {
+    width: 100%;
+    height: 595px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid blue; */
+    background-color: white;
+}
+
+.vid123 {
+    width: 450px;
+    height: 594px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid blue; */
+    background-color: white;
+}
+
+.vid4 {
+    width: 760px;
+    height: 594px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 5px;
+    /* border: 1px solid blue; */
+    background-color: white;
+}
+
+.xemkenhytb {
+    width: 200px;
+    height: 50px;
+    float: left;
+    margin-top: 50px;
+    /* border: 1px solid blue; */
+    margin-left: 450px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.noidung3 {
+    width: 100%;
+    height: 170px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+}
+
+.lienhe1 {
+    width: 230px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.lienhe1:hover {
+    opacity: 0.5;
+}
+
+.lienhe2 {
+    width: 230px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.lienhe2:hover {
+    opacity: 0.5;
+}
+
+.lienhe3 {
+    width: 230px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.lienhe3:hover {
+    opacity: 0.5;
+}
+
+.lienhe4 {
+    width: 230px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.lienhe4:hover {
+    opacity: 0.5;
+}
+
+.lienhe5 {
+    width: 230px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.lienhe5:hover {
+    opacity: 0.5;
+}
+
+#Footer {
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid black; */
+}
+
+.footer1 {
+    width: 400px;
+    height: 330px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+}
+
+.footer2 {
+    width: 200px;
+    height: 330px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+}
+
+.footer3 {
+    width: 300px;
+    height: 330px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+}
+
+.facebook {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.twitter {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.youtube {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.tiktok {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.footer4 {
+    width: 560px;
+    height: 330px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+}

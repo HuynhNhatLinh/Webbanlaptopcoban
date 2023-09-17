@@ -1,0 +1,835 @@
+#bgcolor {
+    background-color: whitesmoke;
+}
+/* header */
+#Header {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 120px;
+}
+
+.logo {
+    width: 140px;
+    height: 120px;
+    float: left;
+    margin-left: 150px;
+}
+
+.hotline {
+    width: 180px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.phone {
+    width: 50px;
+    height: 50px;
+}
+
+#Cart {
+    width: 140px;
+    height: 100px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 100px;
+    /* border: 1px solid black; */
+}
+
+.cart {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#Search {
+    width: 500px;
+    height: 70px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid blue;
+    float: left;
+    width: 85%;
+    background: white;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    border: #0b7dda 1px solid;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+#Menu {
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid black; */
+}
+
+#textmenu {
+    font-size: 15px;
+    padding-top: 15px;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif, Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .menu1 {
+    width: 100px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 200px;
+} */
+
+.laptopmoi {
+    width: 100px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 200px;
+    background-color: blue;
+}
+
+.laptopmoi:hover {
+    background-color: darkblue;
+}
+
+.laptopgaming {
+    width: 130px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 50px;
+    background-color: blue;
+}
+
+.laptopgaming:hover {
+    background-color: darkblue;
+}
+
+.laptopdohoa {
+    width: 130px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 50px;
+    background-color: blue;
+}
+
+.laptopdohoa:hover {
+    background-color: darkblue;
+}
+
+.laptopmongnhecaocap {
+    width: 225px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 50px;
+    background-color: blue;
+}
+
+.laptopmongnhecaocap:hover {
+    background-color: darkblue;
+}
+
+.laptoplikenew{
+    width: 140px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 50px;
+    background-color: blue;
+}
+
+.laptoplikenew:hover {
+    background-color: darkblue;
+}
+
+.linhkienlaptop {
+    width: 160px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 50px;
+    background-color: blue;
+}
+
+.linhkienlaptop:hover {
+    background-color: darkblue;
+}
+/* body */
+#Noidung {
+    background-color: whitesmoke;
+    height: 4000px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif
+}
+
+.noidung1 {
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+}
+
+.noidung2 {
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.a {
+    padding-left: 10px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif, Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.noidung3 {
+    width: 100%;
+    height: 700px;
+    float: left;
+    margin-top: 5px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+/* ảnh sản phẩm */
+.sanpham1 {
+    width: 318px;
+    height: 462px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.picture {
+    width: 318px;
+    height: 250px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.anh1 {
+    width: 106px;
+    height: 105px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.anh2 {
+    width: 105px;
+    height: 105px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.anh3 {
+    width: 105px;
+    height: 105px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.anh4 {
+    width: 105px;
+    height: 105px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.anh5 {
+    width: 105px;
+    height: 105px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.anh6 {
+    width: 105px;
+    height: 105px;
+    float: left;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.giasanpham {
+    width: 400px;
+    height: 120px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.b {
+    padding-left: 5px;
+    color: red;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif, Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.c {
+    padding-left: 5px;
+    color: black;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif, Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.d {
+    padding-left: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif, Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.discount {
+    text-decoration: line-through;
+}
+
+.cauhinh {
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-top: 150px;
+    margin-left: -380px;
+    border: 1px solid blue;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.chatluong {
+    width: 330px;
+    height: 250px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 100px;
+    border: 1px solid blue;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.diachi {
+    width: 330px;
+    height: 200px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 505px;
+    border: 1px solid blue;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.e {
+    padding-left: 5px;
+    color: red;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif, Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.f {
+    padding-left: 40px;
+    padding-top: 20px;
+    color: black;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif, Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.khuyenmai {
+    width: 200px;
+    height: 40px;
+    float: left;
+    margin-top: -150px;
+    margin-left: 400px;
+    /* border: 1px solid black; */
+    background-color: green;
+    border-radius: 5px;
+}
+
+.lstquatang {
+    width: 400px;
+    height: 150px;
+    float: left;
+    margin-top: -110px;
+    margin-left: 338px;
+    border: 1px solid green;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.muangay {
+    width: 400px;
+    height: 60px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 338px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.tragop1 {
+    width: 195px;
+    height: 60px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 338px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-size: small;
+}
+
+.tragop2 {
+    width: 195px;
+    height: 60px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 8px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-size: small;
+}
+
+.noidung4 {
+    width: 800px;
+    height: 50px;
+    float: left;
+    margin-top: 5px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.noidung5 {
+    width: 414px;
+    height: 50px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.thongtin {
+    width: 800px;
+    height: 2800px;
+    float: left;
+    margin-top: 5px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.text {
+    padding-left: 10px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif, Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.anhthongtin1 {
+    width: 788px;
+    height: 458px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.anhthongtin2 {
+    width: 788px;
+    height: 458px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.anhthongtin3 {
+    width: 788px;
+    height: 458px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.thongso {
+    width: 414px;
+    height: 1300px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.text2 {
+    padding-left: 10px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif, Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+    font-size: 12px;
+}
+
+.lstthongso {
+    width: 402px;
+    height: 1000px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid whitesmoke;
+    background-color: white;
+}
+
+.CPU {
+    width: 402px;
+    height: 80px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+}
+
+.RAM {
+    width: 402px;
+    height: 80px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.ocung {
+    width: 402px;
+    height: 80px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+}
+
+.VGA {
+    width: 402px;
+    height: 100px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.manhinh {
+    width: 402px;
+    height: 80px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+}
+
+.webcam {
+    width: 402px;
+    height: 100px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.ketnoi {
+    width: 402px;
+    height: 170px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+}
+
+.trongluong {
+    width: 402px;
+    height: 80px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.pin {
+    width: 402px;
+    height: 80px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+}
+
+.hedieuhanh {
+    width: 402px;
+    height: 80px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+
+.chitiet {
+    width: 402px;
+    height: 80px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 5px;
+    border: 1px solid blue;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.text3 {
+    padding-left: 10px;
+    padding-top: 15px;
+    font-weight: bolder;
+    color: blue;
+    font-size: 12px;
+    text-align: center;
+}
+
+.noidung0 {
+    width: 100%;
+    height: 170px;
+    float: left;
+    margin-top: 80px;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+}
+
+.lienhe1 {
+    width: 230px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.lienhe1:hover {
+    opacity: 0.5;
+}
+
+.lienhe2 {
+    width: 230px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.lienhe2:hover {
+    opacity: 0.5;
+}
+
+.lienhe3 {
+    width: 230px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.lienhe3:hover {
+    opacity: 0.5;
+}
+
+.lienhe4 {
+    width: 230px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.lienhe4:hover {
+    opacity: 0.5;
+}
+
+.lienhe5 {
+    width: 230px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.lienhe5:hover {
+    opacity: 0.5;
+}
+/* footer */
+#Footer {
+    background-color: white;
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid black; */
+}
+
+.footer1 {
+    width: 400px;
+    height: 330px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+}
+
+.footer2 {
+    width: 200px;
+    height: 330px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+}
+
+.footer3 {
+    width: 300px;
+    height: 330px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+}
+
+.facebook {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.twitter {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.youtube {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.tiktok {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.footer4 {
+    width: 560px;
+    height: 330px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+}
